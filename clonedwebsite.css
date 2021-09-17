@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    font-family: Urbanist;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Urbanist;
+}
+
+.section1{
+    background-image: url(./clonedwebbackground1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    height: 400px;
+    width: 100%;
+
+}
+
+.navbar .listcontainer{
+    list-style-type: none;
+}
+
+.navbar .listcontainer li a{
+    text-decoration: none;
+    position: relative;
+    float: left;
+margin: 5px;
+    color: rgb(247, 242, 242);
+    display: block;
+    top: 20px;
+
+}
+
+.listcontainer .pushright{
+    position: relative;
+float: right;
+    display: inline-flex;
+    right: 10%;
+    top: 5px;
+   
+}
+.listcontainer .pushright .log{
+    margin-right: 10px;
+}
+.section1 .restro{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 30%;
+}
+
+.restro h1{
+    font-family: Great Vibes;
+    font-size: 50;
+    font-weight: bold;
+letter-spacing: 1px;
+cursor:default;
+}
+
+.section1 .restro  #restraunt{
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+}
+
+.section2{
+    text-align: center;
+    background-color: rgb(255, 251, 247);
+
+}
+.maincontent{
+    float: right;
+    position: relative;
+    right: 10%;
+    top: 30px;
+    text-align: justify;
+    font-family: Urbanist;
+
+}
+.maincontent h1{
+    font-size: xx-large;
+    
+}
+.search #type2{
+    border: 1px solid #cecbcb;
+    padding: 10px;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+}
+.search .btn{
+    background-color: #ec4654;
+    color: white;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+cursor: pointer;
+}
+.search .btn:hover{
+    background-color: #eb1c2d;
+
+}
+.section3{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.section3 h1{
+    font-size: xx-large;
+
+}
+.section3 h2{
+    font-weight:normal;
+}
+.section3 li{
+    float: left;
+    color: #828282;
+}
+.section3 a{
+    color: #828282;
+    text-decoration: none;
+   margin: 10px;
+}
+.section3 a:hover{
+    color: black;
+}
+footer{
+    background: rgb(248, 248, 248);
+    width: 100%;
+    height: 100%;
+}
+footer h2{
+    position: relative;
+    top: 10%;
+    margin-left: 100px;
+    font-size: xx-large;
+}
+
+footer .pushright{
+    float: right;
+    position: relative;
+    bottom: 17px;
+    display: flex;
+    margin-right: 100px;
+
+}
+footer .pushright .pushright1{
+    border: 1px solid #cecbcb;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+footer .pushright .pushright1 .arrow{
+font-size: 5.5;
+font-weight: lighter;
+margin-left:5px ;
+color: #686666;;
+margin-bottom: 3px;
+}
+footer .pushright .pushright1 .icon{
+    /* padding-right: 5pxx; */
+    /* font-size: 25; */
+    position: relative;
+    top: 2px;
+}
+
+
+footer .pushright .pushright1 .pushright1drop ul,.pushright2drop ul{
+    list-style-type: none;
+    padding: 20px;
+    }
+
+footer .pushright .pushright1 .pushright1drop li,.pushright2drop li{
+    margin-bottom: 6px;
+    padding: 4px;
+}
+
+
+footer .pushright .pushright1 .pushright1drop,.pushright2drop{
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    /* position: relative;
+    top: 20%; */
+    display: none;
+}
+
+footer .pushright .pushright1 .pushright1drop li:hover{
+    cursor: pointer;
+    background-color: #cecbcb;;
+}
+footer .pushright .pushright1 .pushright2drop li:hover{
+    cursor: pointer;
+    background-color: rgb(205, 253, 248);
+}
+footer .pushright .pushright1:hover> .pushright1drop{
+    display: grid;
+}
+footer .pushright .pushright2:hover> .pushright2drop{
+    display: grid;
+}
+
+.navarea{
+   display: flex;
+   /* margin-left:10%; */
+   position: relative;
+   top: 10%;
+   margin: 100px;
+}
+.navarea ul{
+    list-style: none;
+}
+.navarea ul li a{
+    text-decoration: none;
+    color:#828282 ;
+    
+}
+.navarea ul li a:hover{
+    color: black;
+}
+.navarea ul li{
+    line-height: 1.8;
+}
+.navarea ul li a .iconify{
+    font-size: 25px;
+}
